@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: auto;
+}
+body {
+  color: rgb(0, 0, 0);
+  /* background-color: rgb(201, 190, 140); */
+  background-image: url(../src/img/antique-paper-texture-close-up-73sblskk73kbwu05.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  box-shadow: 10px -5px 41px 16px rgba(97, 66, 0, 0.64) inset;
+  -webkit-box-shadow: 10px -5px 41px 16px rgba(97, 66, 0, 0.64) inset;
+  -moz-box-shadow: 10px -5px 41px 16px rgba(97, 66, 0, 0.64) inset;
+}
+h2 {
+  font-family: "Rye", serif;
+  text-align: center;
+}
+p {
+  font-family: "MedievalSharp", cursive;
+}

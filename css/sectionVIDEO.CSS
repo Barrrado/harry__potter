@@ -1,0 +1,61 @@
+video {
+  position: absolute;
+  width: 92%;
+  z-index: 0;
+  filter: sepia(97%);
+  border-radius: 20px;
+}
+.conteiner__video {
+  display: flex;
+  height: 670px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+.btn__video {
+  z-index: 1;
+  position: relative;
+  width: 150px;
+  border-radius: 40px;
+  height: 50px;
+  background-color: rgb(136, 101, 37);
+  border: 0;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 1px solid rgb(233, 224, 171);
+  text-transform: uppercase;
+  font-family: "Harry Potter", sans-serif;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.btn__video:hover {
+  background-color: rgb(3, 3, 0);
+  color: rgb(255, 255, 255);
+}
+
+.texto__video {
+  position: relative;
+  color: rgb(134, 110, 0);
+  z-index: 2;
+  padding: 5px;
+  margin-top: 130px;
+  text-transform: uppercase;
+  font-family: "Harry Potter", sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+  /* background-color: rgba(0, 0, 0, 0.288); */
+  /* backdrop-filter: blur(30px); */
+  border-radius: 20px;
+  -webkit-text-stroke-width: 1px; /* Largura da borda */
+  -webkit-text-stroke-color: rgb(252, 217, 20); /* Cor da borda */
+}
+.conteiner__div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 300px;
+}

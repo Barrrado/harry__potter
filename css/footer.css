@@ -1,0 +1,23 @@
+footer {
+  height: 200px;
+  background-color: rgb(179, 166, 110);
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.foot_h2 {
+  font-weight: 100;
+}
+.redes {
+  margin: 20px;
+  width: 50px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.redes__sociais {
+  display: flex;
+  flex-direction: row;
+}
+.redes:hover {
+  transform: scale(1.2);
+}

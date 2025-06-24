@@ -1,0 +1,163 @@
+.menu__conteiner {
+  padding: 10px;
+  height: 100%;
+  border-top: 2px solid rgb(0, 0, 0);
+
+  background-size: cover;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding: 0; /* Remove default padding from ul */
+  margin: 0; /* Remove default margin from ul */
+}
+
+li {
+  margin: 10px;
+  text-transform: uppercase;
+  font-family: "Rye", serif;
+  font-size: 30px;
+  background-color: rgb(235, 187, 115);
+  padding: 10px;
+  border-bottom: 2px solid black;
+  font-weight: 100;
+
+  cursor: pointer; /* Indicate it's clickable */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+li:hover {
+  background-color: rgb(228, 228, 228); /* Darker background on hover */
+}
+
+.conteudomenu {
+  display: none; /* Hide all content divs by default */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 10px;
+  padding: 5px;
+  height: auto;
+
+  border-radius: 8px;
+}
+
+.conteudomenu.active {
+  display: flex; /* Show the active content div */
+}
+.brasoes {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(1, 200px);
+  grid-gap: 10px;
+}
+.brasão__img {
+  width: 175px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+}
+#lufalufa:hover {
+  transform: scale(1.1) rotate3d(0, 3, 0, 180deg);
+}
+
+#grinfin:hover {
+  transform: scale(1.1) rotate3d(0, 3, 0, 180deg);
+}
+
+#raven:hover {
+  transform: scale(1.1) rotate3d(0, 3, 0, 180deg);
+}
+
+#sunserina:hover {
+  transform: scale(1.1) rotate3d(0, 3, 0, 180deg);
+}
+.grinf {
+  background-image: url(../src/img/casas/gryffi1.jpg);
+}
+.sun {
+  background-image: url(../src/img/casas/sun2.jpg);
+  background-size: cover;
+}
+.raven {
+  background-image: url(../src/img/casas/raven1.jpg);
+  backdrop-filter: sepia(97%);
+}
+.lufa1 {
+  background-image: url(../src/img/casas/lufa1.png);
+}
+.grifinoria {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: 500px;
+}
+.geral__img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.oculto {
+  display: none; /* Use !important para garantir que sobrescreva outras regras se necessário */
+}
+
+/* Classe para mostrar um elemento (será a ausência de 'oculto') */
+.visivel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.ativo {
+  filter: sepia(97%);
+}
+.casa {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.titulo__casa {
+  font-family: "Rye", serif;
+  font-weight: 100;
+  padding: 10px;
+  color: blanchedalmond;
+  font-size: 50px;
+}
+.casas__p {
+  font-family: "MedievalSharp", cursive;
+  color: blanchedalmond;
+  font-size: 20px;
+  text-align: justify;
+  width: 380px;
+  padding: 10px;
+}
+.conteudos-casa {
+  margin-top: 10px;
+}
+.sonso {
+  background-color: rgba(5, 53, 0, 0.315);
+  backdrop-filter: blur(20px);
+}
+.lufa {
+  background-color: rgba(75, 64, 2, 0.281);
+  backdrop-filter: blur(20px);
+}
+.corvinal {
+  background-color: rgba(0, 0, 100, 0.205);
+  backdrop-filter: blur(20px);
+}
+.grifinoria1 {
+  background-color: rgba(99, 3, 3, 0.315);
+  backdrop-filter: blur(20px);
+}
